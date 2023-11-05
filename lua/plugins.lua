@@ -21,6 +21,7 @@ use 'nvim-tree/nvim-tree.lua'           -- nvim tree
 use 'nvim-tree/nvim-web-devicons'       -- nvim web devicons
 use 'ellisonleao/gruvbox.nvim'
 use "rebelot/kanagawa.nvim"
+use 'Mofiqul/dracula.nvim'
 --auto complete
 use {
   'hrsh7th/cmp-nvim-lsp',
