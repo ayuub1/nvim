@@ -69,3 +69,5 @@ require'lspconfig'.omnisharp.setup {
 require('lspconfig').gdscript.setup {
     cmd = { "nc", "127.0.0.1", "6005" },
 }
+
+require("flutter-tools").setup {}
