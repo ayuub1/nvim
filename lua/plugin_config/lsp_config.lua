@@ -71,3 +71,7 @@ require('lspconfig').gdscript.setup {
 }
 
 require("flutter-tools").setup {}
+
+require('lspconfig').tsserver.setup{}
+
+
