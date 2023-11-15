@@ -40,7 +40,8 @@ use {
 
 use 'leafgarland/typescript-vim'
 
-
+use('jose-elias-alvarez/null-ls.nvim')
+use('MunifTanjim/prettier.nvim')
 
 use {
   'nvim-lualine/lualine.nvim',
