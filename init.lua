@@ -10,5 +10,7 @@ require("plugin_config.compilot")
 require("plugin_config.autosaving")
 require("plugin_config.autopair")
 require("plugin_config.lualine")
-require("plugin_config.nullls")
 require("plugin_config.prettier")
+require("plugin_config.debug")
+
+

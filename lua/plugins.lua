@@ -19,7 +19,7 @@ return require('packer').startup(function(use)
 
 use 'nvim-tree/nvim-tree.lua'           -- nvim tree
 use 'nvim-tree/nvim-web-devicons'       -- nvim web devicons
-use 'ellisonleao/gruvbox.nvim'
+use 'morhetz/gruvbox'
 use "rebelot/kanagawa.nvim"
 use 'Mofiqul/dracula.nvim'
 --auto complete
@@ -35,6 +35,18 @@ use {
   "nvimdev/lspsaga.nvim",
   'hrsh7th/nvim-cmp'                   -- nvim cmp
 
+}
+
+use { "catppuccin/nvim", as = "catppuccin" }
+
+use 'mfussenegger/nvim-dap'
+use 'rcarriga/nvim-dap-ui'
+
+use {
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
 }
 
 

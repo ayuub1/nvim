@@ -1,5 +1,6 @@
 vim.g.mapleader = ' '
 
+
 vim.api.nvim_set_keymap('n' , '<Leader>q', ':q<CR>' , { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n' , '<Leader>v', ':vsplit<CR>' , { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n' , '<Leader>h', ':split<CR>' , { noremap = true, silent = true })
