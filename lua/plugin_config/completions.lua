@@ -22,3 +22,10 @@ cmp.setup({
     { name = 'buffer' },
   }),
 })
+
+require'luasnip/loaders/from_vscode'.load({
+    paths = {
+        vim.fn.stdpath('data')..'/site/pack/packer/start/nvim-treesitter/snippets',
+    },
+})
+
