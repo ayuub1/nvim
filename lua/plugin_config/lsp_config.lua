@@ -46,6 +46,10 @@ require("lspconfig").pyright.setup {
 
 require'lspconfig'.clangd.setup{
   capabilities = capabilities,
+  cmd = {
+    "clangd",
+    "--offset-encoding=utf-16",
+  },
 }
 
 
