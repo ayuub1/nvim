@@ -28,7 +28,6 @@ use {
   'L3MON4D3/LuaSnip',               -- lua snip
   'saadparwaiz1/cmp_luasnip',
   "rafamadriz/friendly-snippets",
-  "github/copilot.vim",
   "williamboman/mason.nvim",
   "neovim/nvim-lspconfig",
   "williamboman/mason-lspconfig.nvim",
