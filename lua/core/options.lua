@@ -8,8 +8,7 @@ vim.o.softtabstop = 4
 vim.o.expandtab = true
 vim.opt.whichwrap:append('<>[]')
 vim.opt.wrap = false
-vim.opt.guifont = { "JetBrain Mono", "h14" }
-
+vim.opt.termguicolors = true
 --
 
 if vim.opt.encoding == '' then

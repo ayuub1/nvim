@@ -37,7 +37,12 @@ use {
 
 }
 
-
+use {
+  'VonHeikemen/fine-cmdline.nvim',
+  requires = {
+    {'MunifTanjim/nui.nvim'}
+  }
+}
 
 
 use { "catppuccin/nvim", as = "catppuccin" }
@@ -110,6 +115,8 @@ use {
   requires = { {'nvim-lua/plenary.nvim'} }
 }
 
+use 'rcarriga/nvim-notify'
+
 
 use {
   "loctvl842/monokai-pro.nvim",
@@ -117,6 +124,10 @@ use {
     require("monokai-pro").setup()
   end
 }
+
+use 'nvim-tree/nvim-web-devicons' -- OPTIONAL: for file icons
+use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
+use 'romgrk/barbar.nvim'
 
 
 

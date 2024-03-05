@@ -1,9 +1,0 @@
-[font.normal]
-family = "CaskaydiaMono Nerd Font"
-[font]
-size = 10
-[shell]
-program = "/bin/tmux"
-[window]
-opacity = 0.9
-blur = true
